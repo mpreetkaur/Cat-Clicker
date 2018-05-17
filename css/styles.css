@@ -1,18 +1,35 @@
-img.cat {
-    display: block;
+img.cat1 {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    border:5px dashed black;
+    width: 460px;
+    height: 329px;
+    margin: 25px;
+}
+
+img.cat2 {
     margin-left: auto;
     margin-right: auto;
     border-radius: 25px;
     border:5px dashed black;;
+    margin: 25px;
+    margin-left: 55px;
 }
-
-h2 {
-    text-align: center;
+.for1, .for2{
+    display: inline;
     font-size: 45px;
-    padding-bottom: 65px;
+    margin: 65px
 }
-
+h2{
+    font-size: 30px;
+    text-align: center
+}
+.myCat1, .myCat2{
+    display: inline-block
+}
 body{
-    background-image: url('https://data.whicdn.com/images/297733621/original.gif');
+    background-image: url('http://walldiskpaper.com/wp-content/uploads/2015/11/Light-Wallpaper-Screensaver-HD-Downloads.png');
     background-size: 100%;
+    text-align: center
 }
