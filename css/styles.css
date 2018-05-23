@@ -1,35 +1,55 @@
-img.cat1 {
+body {
+    background-image: url('http://walldiskpaper.com/wp-content/uploads/2015/11/Light-Wallpaper-Screensaver-HD-Downloads.png');
+    
+}
+.catC {
+    font-size: 25px;
+    display: inline;
+    padding: 15px 20px 15px 20px;
+    
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto
+}
+ul{
+    text-align: center
+}
+.catC:hover {
+    background: rgb(247, 190, 5);
+    width: 100px
+}
+.container{
+    width: 550px;
+    height: 550px;
+    border: 5px dotted black;
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 25px;
-    border:5px dashed black;
-    width: 460px;
-    height: 329px;
-    margin: 25px;
 }
 
-img.cat2 {
+.cat {
+    display: none;
+}
+
+  .catI{
+      width: 350px;
+      height: 350px;
+      border: 5px double black;
+      border-radius: 10px;
+      display: block;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 25px;
-    border:5px dashed black;;
-    margin: 25px;
-    margin-left: 55px;
+  }
+
+.for1, .for2, .for3, .for4, .for5{
+    font-size: 30px
 }
-.for1, .for2{
-    display: inline;
-    font-size: 45px;
-    margin: 65px
-}
-h2{
+h2 {
     font-size: 30px;
-    text-align: center
+    text-align: center;
 }
-.myCat1, .myCat2{
-    display: inline-block
-}
-body{
-    background-image: url('http://walldiskpaper.com/wp-content/uploads/2015/11/Light-Wallpaper-Screensaver-HD-Downloads.png');
-    background-size: 100%;
-    text-align: center
+.for{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px
 }
